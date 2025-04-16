@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a31ff2c-5920-4757-9de1-0885c580e4ca" name="Changes" comment="gw">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endlink_WebAutomation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/core/baseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/core/driverManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/loginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/messageForwardObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/messagePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/searchObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/shareMediaAndFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/utils/configReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/utils/listener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/utils/retryAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/utils/utilityMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Geekyants/MediaAndFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Geekyants/messageForwardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Geekyants/searchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Geekyants/sendMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1436bd13-0790-4204-a0aa-8b5af5968f23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/164c0aa7-b047-4899-9be7-ad8a677cf8fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1ceac213-17ae-4433-a3df-2d739bfce8f2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1ee19583-0cee-4faf-bbb9-ba79056522bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/21a5b3c0-ac1e-49de-bb42-e4e0464f7ca3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/22ebbda2-7bca-4284-8839-6ce7bf2eeef3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/22f5cc83-5a1a-4320-aa1b-df02229b8c03-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/25e3e3ba-c428-467e-b7ac-25f1cf58aab5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2749a52c-201b-434f-aa95-5a7d89e7676d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3132dfb5-c695-4a66-a162-5f2646a0042e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/34d353e3-f2b5-4035-9479-8dbd9cee996f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3660f6a4-e1fe-448a-9634-32352e0085f1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/42281acf-1433-4bf4-bd74-2e87de94f223-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/43ca12e3-b448-4570-aa96-34c73417bef6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/52a065b1-421e-4199-a1d6-7764571d4393-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/54a5816e-b17b-43b8-a42b-9eeff951ac51-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5780fe1e-5d7d-44a9-94d5-b0c9a742e5fb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/57c0e8e1-fe60-42a2-b572-7c8da779d03d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5ad05565-15e6-4b57-b4bc-446b543e9289-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5f4455be-3e95-40c2-af4f-4ff78b57f0dd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6115f02f-21eb-40b2-8618-5798941855a1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/62add2fa-86f7-4475-8bfb-a7b01e30285a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6a583826-03e9-4310-b9f4-926c395c19a7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6aa75ad3-2890-4008-a794-c8860f3102dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6d1d492b-3cec-490d-9c7c-89bfde6287d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7a1c9cf2-798d-4375-a0ef-52bb15708d25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7df8fc2d-44f5-45f5-ae21-f6eb67d611b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8774be63-883b-4cd9-a230-f7f553503115-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8a41eb83-efee-41ce-ae98-d1f2c2da6a09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/92605db8-d431-4034-bd35-4ffe5ce32b9d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/996ac92e-2c79-427e-93c9-b96ee87d9180-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/997d0e92-348d-4804-91f8-51e6947c29b0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9a7012a8-07bb-437e-bdd1-f9bf4fb2a013-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9d299862-8c4d-4782-a601-a3bb2e91ed53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/aa72ad28-5f0c-456b-ab92-01576ffb6eea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b106e1bf-6d7b-4cc6-bcdf-34f7274f08fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b59da99a-4293-41b5-bae3-55e5de2ae1d8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b685e2e6-2fbb-4634-80bc-231e66fb9739-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ba4ba36f-f7bf-44d1-ba7b-de038be4bd04-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bbc3c94b-fd13-4aa7-b63b-31f52f6a241f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bc3ed150-ddb1-4f9e-8d39-d10c865815b2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bfc1b93a-b956-4f57-8dad-617f3921ab71-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c7ac7f53-d8f4-47c3-b979-2c3cb4cba10b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c7b116e1-4dcf-4854-8d29-1bf24b2bba88-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c84cb2c0-b4a4-4886-9c7b-a2ebd5b03e13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d1c11515-0870-43e0-a960-c1175b3eacb3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d71fbd4e-b195-48f7-a751-2f159cb6e2f7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e45bf897-710c-4c21-80c0-767de90f75b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e55fdee2-b278-4e13-b68c-e9991a6ee356-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e6f25f6e-2839-4a3c-826d-c76b9fedbedf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e7b5df54-6ba3-4818-b63d-69cad53e6491-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e825124b-9b08-4293-bc20-23faa56675fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ef827d14-a11a-414c-8851-fa6d95d92fae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f39bc232-1d67-402e-bf62-a27150b5fc16-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f5e83dd9-dac8-4995-8cea-f9d2143d636e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f6a81d06-e20e-43b9-a021-431616f298c2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f8cc6a41-213d-4e38-8a45-9120c0542a22-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fd4393b8-e742-4104-8878-d453fbf65b42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fe4ce254-7309-43d1-ac2a-36701e31ee6a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/2f167a90fcd7b14e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/32400257ed82fd60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/3d1455eff269c0d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/89c6e3d0a30be88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/8c73095aefebc23d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/e2213f7e7e09516a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/fe27a48e8bc139c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/allure-commandline-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/allure-generator-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/allure-model-2.23.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/allure-plugin-api-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/allure1-model-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/annotations-15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-collections4-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-io-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-lang3-3.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/commons-text-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/config/jetty-logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/config/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-ext-tables-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-ast-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-builder-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-collection-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-data-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-dependency-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-format-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-html-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-misc-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-options-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-sequence-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/flexmark-util-visitor-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/freemarker-2.3.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/httpclient-4.5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/httpcore-4.4.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jackson-dataformat-xml-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jackson-dataformat-yaml-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jackson-module-jaxb-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jaxb-utils-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jcommander-1.82.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jetty-http-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jetty-io-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jetty-server-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/jetty-util-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/logback-classic-1.3.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/logback-core-1.3.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/opencsv-4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/properties-2.0.RC5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/slf4j-api-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/snakeyaml-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/stax2-api-4.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/tika-core-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/lib/woodstox-core-6.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/behaviors-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/custom-logo-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/jira-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/allure-jira-commons-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/converter-jackson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/okhttp-3.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/retrofit-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/junit-xml-plugin/junit-xml-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/packages-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/screen-diff-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/trx-plugin/trx-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/xctest-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/allure-jira-commons-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/converter-jackson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/okhttp-3.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/retrofit-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/xray-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.allure/allure-2.24.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace 2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Endlink_WebAutomation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/core/baseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/core/driverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/loginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/messageForwardObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/messagePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/searchObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/shareMediaAndFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/configReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/retryAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/utilityMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/src/test/resources/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/src/test/resources/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/src/test/resources/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/src/test/resources/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/1436bd13-0790-4204-a0aa-8b5af5968f23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/164c0aa7-b047-4899-9be7-ad8a677cf8fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/1ee19583-0cee-4faf-bbb9-ba79056522bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/21a5b3c0-ac1e-49de-bb42-e4e0464f7ca3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/22ebbda2-7bca-4284-8839-6ce7bf2eeef3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/22f5cc83-5a1a-4320-aa1b-df02229b8c03-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/25e3e3ba-c428-467e-b7ac-25f1cf58aab5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/2749a52c-201b-434f-aa95-5a7d89e7676d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/34d353e3-f2b5-4035-9479-8dbd9cee996f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/42281acf-1433-4bf4-bd74-2e87de94f223-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/52a065b1-421e-4199-a1d6-7764571d4393-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/54a5816e-b17b-43b8-a42b-9eeff951ac51-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/5780fe1e-5d7d-44a9-94d5-b0c9a742e5fb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/57c0e8e1-fe60-42a2-b572-7c8da779d03d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/5ad05565-15e6-4b57-b4bc-446b543e9289-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/5f4455be-3e95-40c2-af4f-4ff78b57f0dd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/62add2fa-86f7-4475-8bfb-a7b01e30285a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/6a583826-03e9-4310-b9f4-926c395c19a7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/6aa75ad3-2890-4008-a794-c8860f3102dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/6d1d492b-3cec-490d-9c7c-89bfde6287d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/7a1c9cf2-798d-4375-a0ef-52bb15708d25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/7df8fc2d-44f5-45f5-ae21-f6eb67d611b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/8a41eb83-efee-41ce-ae98-d1f2c2da6a09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/996ac92e-2c79-427e-93c9-b96ee87d9180-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/9a7012a8-07bb-437e-bdd1-f9bf4fb2a013-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/9d299862-8c4d-4782-a601-a3bb2e91ed53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/b106e1bf-6d7b-4cc6-bcdf-34f7274f08fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/b685e2e6-2fbb-4634-80bc-231e66fb9739-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/ba4ba36f-f7bf-44d1-ba7b-de038be4bd04-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/bbc3c94b-fd13-4aa7-b63b-31f52f6a241f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/bc3ed150-ddb1-4f9e-8d39-d10c865815b2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/bfc1b93a-b956-4f57-8dad-617f3921ab71-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/c7ac7f53-d8f4-47c3-b979-2c3cb4cba10b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/c84cb2c0-b4a4-4886-9c7b-a2ebd5b03e13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/e45bf897-710c-4c21-80c0-767de90f75b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/e55fdee2-b278-4e13-b68c-e9991a6ee356-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/e6f25f6e-2839-4a3c-826d-c76b9fedbedf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/e7b5df54-6ba3-4818-b63d-69cad53e6491-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/e825124b-9b08-4293-bc20-23faa56675fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/ef827d14-a11a-414c-8851-fa6d95d92fae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/f39bc232-1d67-402e-bf62-a27150b5fc16-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/f5e83dd9-dac8-4995-8cea-f9d2143d636e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/f8cc6a41-213d-4e38-8a45-9120c0542a22-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/fd4393b8-e742-4104-8878-d453fbf65b42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/allure-results/fe4ce254-7309-43d1-ac2a-36701e31ee6a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/2f167a90fcd7b14e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/32400257ed82fd60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/3d1455eff269c0d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/89c6e3d0a30be88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/8c73095aefebc23d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/e2213f7e7e09516a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/fe27a48e8bc139c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-commandline-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-generator-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-model-2.23.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-plugin-api-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/allure1-model-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/annotations-15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-collections4-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-io-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-lang3-3.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-text-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/config/jetty-logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/config/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-ext-tables-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-ast-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-builder-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-collection-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-data-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-dependency-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-format-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-html-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-misc-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-options-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-sequence-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-visitor-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/freemarker-2.3.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/httpclient-4.5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/httpcore-4.4.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-dataformat-xml-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-dataformat-yaml-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-module-jaxb-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jaxb-utils-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jcommander-1.82.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-http-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-io-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-server-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-util-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/logback-classic-1.3.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/logback-core-1.3.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/opencsv-4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/properties-2.0.RC5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/slf4j-api-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/snakeyaml-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/stax2-api-4.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/tika-core-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/lib/woodstox-core-6.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/behaviors-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/custom-logo-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/jira-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/allure-jira-commons-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/converter-jackson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/okhttp-3.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/retrofit-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/junit-xml-plugin/junit-xml-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/packages-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/screen-diff-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/trx-plugin/trx-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/xctest-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/allure-jira-commons-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/converter-jackson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/okhttp-3.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/retrofit-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/xray-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.allure/allure-2.24.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/workspace 2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Endlink_WebAutomation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/test/resources/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/test/resources/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/test/resources/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/test/resources/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/1436bd13-0790-4204-a0aa-8b5af5968f23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/164c0aa7-b047-4899-9be7-ad8a677cf8fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/1ee19583-0cee-4faf-bbb9-ba79056522bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/22ebbda2-7bca-4284-8839-6ce7bf2eeef3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/22f5cc83-5a1a-4320-aa1b-df02229b8c03-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/25e3e3ba-c428-467e-b7ac-25f1cf58aab5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/2749a52c-201b-434f-aa95-5a7d89e7676d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/42281acf-1433-4bf4-bd74-2e87de94f223-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/52a065b1-421e-4199-a1d6-7764571d4393-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/54a5816e-b17b-43b8-a42b-9eeff951ac51-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/5780fe1e-5d7d-44a9-94d5-b0c9a742e5fb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/57c0e8e1-fe60-42a2-b572-7c8da779d03d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/5f4455be-3e95-40c2-af4f-4ff78b57f0dd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/62add2fa-86f7-4475-8bfb-a7b01e30285a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/6a583826-03e9-4310-b9f4-926c395c19a7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/6aa75ad3-2890-4008-a794-c8860f3102dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/6d1d492b-3cec-490d-9c7c-89bfde6287d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/7a1c9cf2-798d-4375-a0ef-52bb15708d25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/7df8fc2d-44f5-45f5-ae21-f6eb67d611b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/8a41eb83-efee-41ce-ae98-d1f2c2da6a09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/996ac92e-2c79-427e-93c9-b96ee87d9180-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/9a7012a8-07bb-437e-bdd1-f9bf4fb2a013-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/9d299862-8c4d-4782-a601-a3bb2e91ed53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/b106e1bf-6d7b-4cc6-bcdf-34f7274f08fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/b685e2e6-2fbb-4634-80bc-231e66fb9739-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/ba4ba36f-f7bf-44d1-ba7b-de038be4bd04-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/bbc3c94b-fd13-4aa7-b63b-31f52f6a241f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/bfc1b93a-b956-4f57-8dad-617f3921ab71-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/c7ac7f53-d8f4-47c3-b979-2c3cb4cba10b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/c84cb2c0-b4a4-4886-9c7b-a2ebd5b03e13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/e45bf897-710c-4c21-80c0-767de90f75b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/e55fdee2-b278-4e13-b68c-e9991a6ee356-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/e6f25f6e-2839-4a3c-826d-c76b9fedbedf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/e7b5df54-6ba3-4818-b63d-69cad53e6491-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/e825124b-9b08-4293-bc20-23faa56675fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/f39bc232-1d67-402e-bf62-a27150b5fc16-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/f8cc6a41-213d-4e38-8a45-9120c0542a22-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/fd4393b8-e742-4104-8878-d453fbf65b42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/allure-results/fe4ce254-7309-43d1-ac2a-36701e31ee6a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/2f167a90fcd7b14e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/32400257ed82fd60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/3d1455eff269c0d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/89c6e3d0a30be88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/8c73095aefebc23d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/e2213f7e7e09516a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/fe27a48e8bc139c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-commandline-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-generator-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-model-2.23.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/allure-plugin-api-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/allure1-model-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/annotations-15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-collections4-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-io-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-lang3-3.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/commons-text-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/config/jetty-logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/config/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-ext-tables-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-ast-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-builder-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-collection-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-data-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-dependency-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-format-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-html-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-misc-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-options-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-sequence-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/flexmark-util-visitor-0.62.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/freemarker-2.3.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/httpclient-4.5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/httpcore-4.4.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-dataformat-xml-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-dataformat-yaml-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jackson-module-jaxb-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jaxb-utils-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jcommander-1.82.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-http-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-io-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-server-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/jetty-util-9.4.51.v20230217.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/logback-classic-1.3.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/logback-core-1.3.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/opencsv-4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/properties-2.0.RC5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/slf4j-api-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/snakeyaml-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/stax2-api-4.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/tika-core-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/lib/woodstox-core-6.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/behaviors-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/custom-logo-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/jira-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/allure-jira-commons-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/converter-jackson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/okhttp-3.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/jira-plugin/lib/retrofit-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/junit-xml-plugin/junit-xml-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/packages-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/screen-diff-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/trx-plugin/trx-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xctest-plugin/xctest-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/allure-jira-commons-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/converter-jackson-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/okhttp-3.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/lib/retrofit-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xray-plugin/xray-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.allure/allure-2.24.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.24.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/test/resources/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/test/resources/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/test/resources/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/test/resources/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/1436bd13-0790-4204-a0aa-8b5af5968f23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/22ebbda2-7bca-4284-8839-6ce7bf2eeef3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/42281acf-1433-4bf4-bd74-2e87de94f223-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/54a5816e-b17b-43b8-a42b-9eeff951ac51-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/6aa75ad3-2890-4008-a794-c8860f3102dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/7a1c9cf2-798d-4375-a0ef-52bb15708d25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/8a41eb83-efee-41ce-ae98-d1f2c2da6a09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/996ac92e-2c79-427e-93c9-b96ee87d9180-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/9a7012a8-07bb-437e-bdd1-f9bf4fb2a013-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/9d299862-8c4d-4782-a601-a3bb2e91ed53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/b685e2e6-2fbb-4634-80bc-231e66fb9739-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/c7ac7f53-d8f4-47c3-b979-2c3cb4cba10b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/e55fdee2-b278-4e13-b68c-e9991a6ee356-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/e7b5df54-6ba3-4818-b63d-69cad53e6491-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/2f167a90fcd7b14e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/32400257ed82fd60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/3d1455eff269c0d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/89c6e3d0a30be88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/8c73095aefebc23d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/e2213f7e7e09516a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/test-cases/fe27a48e8bc139c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/plugin/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/&quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/target/allure-reports&quot;/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/1436bd13-0790-4204-a0aa-8b5af5968f23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/22ebbda2-7bca-4284-8839-6ce7bf2eeef3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/42281acf-1433-4bf4-bd74-2e87de94f223-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/54a5816e-b17b-43b8-a42b-9eeff951ac51-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/6aa75ad3-2890-4008-a794-c8860f3102dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/7a1c9cf2-798d-4375-a0ef-52bb15708d25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/8a41eb83-efee-41ce-ae98-d1f2c2da6a09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/996ac92e-2c79-427e-93c9-b96ee87d9180-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/9a7012a8-07bb-437e-bdd1-f9bf4fb2a013-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/9d299862-8c4d-4782-a601-a3bb2e91ed53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/b685e2e6-2fbb-4634-80bc-231e66fb9739-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/c7ac7f53-d8f4-47c3-b979-2c3cb4cba10b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/e55fdee2-b278-4e13-b68c-e9991a6ee356-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/e7b5df54-6ba3-4818-b63d-69cad53e6491-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/All Test Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/All Test Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/junitreports/TEST-Geekyants.sendMessage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/test-classes/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/test-classes/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/test-classes/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/test-classes/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/All Test Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/All Test Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/junitreports/TEST-Geekyants.sendMessage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/test-classes/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/test-classes/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/test-classes/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/test-classes/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/All Test Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/All Test Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/junitreports/TEST-Geekyants.sendMessage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/test-classes/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/test-classes/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/test-classes/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/test-classes/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/All Test Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/All Test Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/junitreports/TEST-Geekyants.sendMessage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/test-classes/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/test-classes/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/test-classes/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/test-classes/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Geekyants.sendMessage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/MediaAndFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/messageForwardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/searchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/sendMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test5MB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestVideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/sendMessageToCoworker_2025.04.16.11.06.13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/sendMessageToCoworker_2025.04.16.11.07.17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Prathameshgeek&quot;
+  }
+}</component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;prathamesh&quot;,
+      &quot;fullname&quot;: &quot;Prathamesh Ingale&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://git.geekyants.com/prathamesh/endlink-webapp.git&quot;,
+    &quot;second&quot;: &quot;fd66db1c-22e5-4246-a7a8-09bef7cf4495&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prathameshgeek/Endlink_WebAutomation.git&quot;,
+    &quot;accountId&quot;: &quot;43ad3011-8b00-41e4-87e7-0e10e368e7e8&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2sTmt8bHwQYY5XRP8H5qPqhDqEK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.&lt;default&gt;.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Dummy.test.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/testng.xml">
+    <configuration name="Dummy.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Endlink_WebAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Geekyants.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Geekyants.testCases" />
+      <option name="MAIN_CLASS_NAME" value="Geekyants.testCases.Dummy" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Endlink_WebAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Endlink_WebAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/prathameshingale/Desktop/Endlink Automation/Endlink_WebAutomation/testng.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.Dummy.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a31ff2c-5920-4757-9de1-0885c580e4ca" name="Changes" comment="" />
+      <created>1738488150617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738488150617</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added Message and File upload cases">
+      <option name="closed" value="true" />
+      <created>1738947322110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738947322110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Message and File upload cases">
+      <option name="closed" value="true" />
+      <created>1741008791469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741008791469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Message and File upload cases">
+      <option name="closed" value="true" />
+      <created>1741008890479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741008890479</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1744100836414</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744100836414</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1744631944223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744631944223</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1744632100841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744632100841</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1744632174848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744632174848</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1744632242945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744632242945</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1744632290186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744632290186</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Message and File upload cases" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+  </component>
+</project>
