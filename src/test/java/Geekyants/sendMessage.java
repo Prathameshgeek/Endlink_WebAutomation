@@ -17,7 +17,7 @@ public class sendMessage extends baseClass {
         messagePage mp = new messagePage(driver);
         mp.chooseCoworker();
 
-        String message = "Hello! This is a test automation message....";
+        String message = "Hello! This is a test automation message.";
         String lastMessage = mp.sendMessageAndVerify(message);
 
         Assert.assertEquals(lastMessage, message);
