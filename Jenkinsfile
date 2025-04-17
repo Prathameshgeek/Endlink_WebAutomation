@@ -79,6 +79,8 @@ pipeline {
                 to: 'prathamesh@geekyants.com, prashantg@geekyants.com , jenniferk@geekyants.com ' , 
                 subject: "Jenkins Build Report - Endlink Webapp",
                 body: """
+                <p>Hi Team,</p>
+                <p>This email provides the report for the Endlink web application build. Below is the status of the latest automated testing.</p>
                 <h2>Jenkins Build Report</h2>
                 <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
                 <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
