@@ -16,6 +16,9 @@ pipeline {
         stage('Build and Test') {
             steps {
                 sh 'mvn clean install' // Execute Maven from the workspace root
+                sh 'pwd'
+                sh 'ls -al'
+                sh 'ls -al Endlink_WebAutomation'
             }
         }
     }
