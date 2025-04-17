@@ -16,6 +16,7 @@ pipeline {
         stage('Build and Test') {
             steps {
                 script {
+                      sh 'pwd'
                     dir('Endlink_WebAutomation') {
                         sh 'mvn clean install'
                     }
