@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a31ff2c-5920-4757-9de1-0885c580e4ca" name="Changes" comment="gw" />
+    <list default="true" id="5a31ff2c-5920-4757-9de1-0885c580e4ca" name="Changes" comment="verifying new commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/utils/listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geekyants/utils/listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/core/baseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/core/driverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/loginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/messageForwardObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/messagePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/searchObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/shareMediaAndFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/configReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/retryAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/utilityMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-04-17T11-47-05_155-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-04-17T11-47-05_155-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/MediaAndFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/messageForwardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/searchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/sendMessage.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,13 +247,50 @@
       <option name="project" value="LOCAL" />
       <updated>1744785814716</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gw">
+      <option name="closed" value="true" />
+      <created>1744785961957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744785961957</updated>
+    </task>
+    <task id="LOCAL-00012" summary="verifying">
+      <option name="closed" value="true" />
+      <created>1744786237365</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744786237365</updated>
+    </task>
+    <task id="LOCAL-00013" summary="verifying new commit">
+      <option name="closed" value="true" />
+      <created>1744786412680</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744786412680</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Message and File upload cases" />
     <MESSAGE value="Updates" />
     <MESSAGE value="gw" />
-    <option name="LAST_COMMIT_MESSAGE" value="gw" />
+    <MESSAGE value="verifying" />
+    <MESSAGE value="verifying new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="verifying new commit" />
   </component>
 </project>

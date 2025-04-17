@@ -1,9 +1,0 @@
-# Created at 2025-04-17T11:48:28.121
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.2', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [84df206631b99080f90ee8cdaba198c9, screenshot []]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: /var/folders/_l/fv220f5x43q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52342/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 84df206631b99080f90ee8cdaba198c9
-
