@@ -18,9 +18,7 @@ pipeline {
         }
         stage('Build and Test') {
             steps {
-                sh 'mvn clean install' // Execute Maven from the workspace root
-                sh 'pwd'
-                sh 'ls -al target'
+                sh 'mvn clean install' 
             }
         }
     }
@@ -32,18 +30,18 @@ pipeline {
                 keepAll: false,
                 reportDir: 'Reports', // Adjust path if needed
                 reportFiles: 'ExtentReport.html',
-                reportName: 'Endlink Webapp Extent Report'
+                reportName: 'Extent Report'
             ])
             emailext(
                 to: 'prathamesh@geekyants.com',
-    subject: "Jenkins Build Report - Endlink Webapp",
-    body: """
-        <h2>Jenkins Build Report</h2>
-        <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
-        <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
-        <p><b>Extent Report:</b> <a href="http://localhost:8080/job/Endlink%20Web_Automation%20Pipeline/Endlink_20Webapp_20Extent_20Report/">View Report</a></p>
-        <br>
-        <p>Regards, <br> Jenkins Pipeline</p>
+                subject: "Jenkins Build Report - Endlink Webapp",
+                body: """
+                <h2>Jenkins Build Report</h2>
+               <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
+               <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
+               <p><b>Extent Report:</b> <a href="http://localhost:8080/job/Endlink%20Web_Automation%20Pipeline/Endlink_20Webapp_20Extent_20Report/">View Report</a></p>
+               <br>
+               <p>Regards, <br> Geekyants QA Team</p>
     """,
     mimeType: 'text/html',
     attachLog: true
