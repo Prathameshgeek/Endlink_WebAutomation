@@ -17,6 +17,7 @@ pipeline {
             steps {
                 script {
                       sh 'pwd'
+                       sh 'ls -al'  // Check the contents of the directory
                     dir('Endlink_WebAutomation') {
                         sh 'mvn clean install'
                     }
