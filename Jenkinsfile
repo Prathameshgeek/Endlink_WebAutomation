@@ -8,11 +8,11 @@ pipeline {
         maven 'Maven-3.8.6'
     }
     triggers {
-        cron('H 9 * * *')
+        cron('H 9 * * *')  // Fixed cron expression syntax
     }
     environment {
-        GITHUB_TOKEN = credentials('github-token-credential-id') // Create this credential in Jenkins
-        REPORT_REPO = 'https://github.com/Prathameshgeek/endlink-test-reports.git' // Change to your repository
+        GITHUB_TOKEN = credentials('github-token-credential-id')
+        REPORT_REPO = 'https://github.com/Prathameshgeek/endlink-test-reports.git'
         BUILD_TIMESTAMP = "${BUILD_NUMBER}_${new Date().format('yyyy-MM-dd_HH-mm')}"
     }
     stages {
@@ -27,43 +27,44 @@ pipeline {
             }
         }
         stage('Publish Report to GitHub Pages') {
-    steps {
-        withCredentials([string(credentialsId: 'github-token-credential-id', variable: 'GITHUB_TOKEN_VAR')]) {
-            sh '''
-                git config --global user.email "prathamesh@geekyants.com"
-                git config --global user.name "Jenkins"
-                rm -rf ./temp-reports || true
-                mkdir -p ./temp-reports
-                cd ./temp-reports
-                git clone https://${GITHUB_TOKEN_VAR}@github.com/Prathameshgeek/endlink-test-reports.git .
-                
-                # Create both reports and latest directories
-                mkdir -p ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")
-                mkdir -p ./latest
-                
-                # Copy reports to timestamped directory
-                cp -r ../Reports/* ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/
-                
-                # Create index.html in the timestamped directory
-                cp ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/ExtentReport.html ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/index.html
-                
-                # Clear latest directory and copy new files
-                rm -rf ./latest/* || true
-                cp -r ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/* ./latest/
-                
-                # Commit and push changes
-                git add .
-                git commit -m "Add test report for build ${BUILD_NUMBER}" || echo "No changes to commit"
-                git push origin main
-            '''
-            script {
-                def timestamp = sh(script: 'date +"%Y-%m-%d_%H-%M"', returnStdout: true).trim()
-                env.REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/reports/${BUILD_NUMBER}_${timestamp}/"
-                env.LATEST_REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/latest/"
+            steps {
+                withCredentials([string(credentialsId: 'github-token-credential-id', variable: 'GITHUB_TOKEN_VAR')]) {
+                    sh '''
+                        git config --global user.email "prathamesh@geekyants.com"
+                        git config --global user.name "Jenkins"
+                        rm -rf ./temp-reports || true
+                        mkdir -p ./temp-reports
+                        cd ./temp-reports
+                        git clone https://${GITHUB_TOKEN_VAR}@github.com/Prathameshgeek/endlink-test-reports.git .
+                        
+                        # Create both reports and latest directories
+                        mkdir -p ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")
+                        mkdir -p ./latest
+                        
+                        # Copy reports to timestamped directory
+                        cp -r ../Reports/* ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/
+                        
+                        # Create index.html in the timestamped directory
+                        cp ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/ExtentReport.html ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/index.html
+                        
+                        # Clear latest directory and copy new files
+                        rm -rf ./latest/* || true
+                        cp -r ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/* ./latest/
+                        
+                        # Commit and push changes
+                        git add .
+                        git commit -m "Add test report for build ${BUILD_NUMBER}" || echo "No changes to commit"
+                        git push origin main
+                    '''
+                    script {
+                        def timestamp = sh(script: 'date +"%Y-%m-%d_%H-%M"', returnStdout: true).trim()
+                        env.REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/reports/${BUILD_NUMBER}_${timestamp}/"
+                        env.LATEST_REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/latest/"
+                    }
+                }
             }
         }
     }
-}
     post {
         always {
             publishHTML([
