@@ -40,7 +40,7 @@ pipeline {
                 <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
                 <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
                 <p><b>Extent Report:</b> <a href="http://localhost:8080/job/Endlink%20Web_Automation%20Pipeline/Endlink_20Webapp_20Extent_20Report/">View Report</a></p>
-                <be>
+                <br>
                 <p>Regards, <br> Geekyants QA Team</p>
     """,
     mimeType: 'text/html',
