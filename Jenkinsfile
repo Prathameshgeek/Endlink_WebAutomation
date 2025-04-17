@@ -36,13 +36,12 @@ pipeline {
                 to: 'prathamesh@geekyants.com',
                 subject: "Jenkins Build Report - Endlink Webapp",
                 body: """
-                Jenkins Build Report
-                Job: Endlink Web_Automation Pipeline
-                Build Status: ${currentBuild.currentResult}
-                Extent Report: ${BUILD_URL}/artifact/Reports/ExtentReport.html
-
-                Regards,
-                Geekyants QA Team
+                <h2>Jenkins Build Report</h2>
+                <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
+                <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
+                <p><b>Extent Report:</b> <a href="${BUILD_URL}HTML_Report/Endlink%20Webapp%20Extent%20Report/">View Report</a></p>
+                <br>
+                <p>Regards, <br> Geekyants QA Team</p>
     """,
     mimeType: 'text/html',
     attachLog: true
