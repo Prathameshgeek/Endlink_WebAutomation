@@ -27,30 +27,43 @@ pipeline {
             }
         }
         stage('Publish Report to GitHub Pages') {
-            steps {
-                // Clone the reports repository
-                sh """
-                    git config --global user.email "jenkins@example.com"
-                    git config --global user.name "Jenkins"
-                    rm -rf ./temp-reports || true
-                    mkdir -p ./temp-reports
-                    cd ./temp-reports
-                    git clone https://${GITHUB_TOKEN}@github.com/Prathameshgeek/endlink-test-reports.git .
-                    mkdir -p ./reports/${BUILD_TIMESTAMP}
-                    cp -r ../Reports/* ./reports/${BUILD_TIMESTAMP}/
-                    cp ./reports/${BUILD_TIMESTAMP}/ExtentReport.html ./reports/${BUILD_TIMESTAMP}/index.html
-                    cp -r ./reports/${BUILD_TIMESTAMP}/* ./latest/
-                    git add .
-                    git commit -m "Add test report for build ${BUILD_NUMBER}" || echo "No changes to commit"
-                    git push origin main
-                """
-                script {
-                    env.REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/reports/${BUILD_TIMESTAMP}/"
-                    env.LATEST_REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/latest/"
-                }
+    steps {
+        withCredentials([string(credentialsId: 'github-token-credential-id', variable: 'GITHUB_TOKEN_VAR')]) {
+            sh '''
+                git config --global user.email "prathamesh@geekyants.com"
+                git config --global user.name "Jenkins"
+                rm -rf ./temp-reports || true
+                mkdir -p ./temp-reports
+                cd ./temp-reports
+                git clone https://${GITHUB_TOKEN_VAR}@github.com/Prathameshgeek/endlink-test-reports.git .
+                
+                # Create both reports and latest directories
+                mkdir -p ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")
+                mkdir -p ./latest
+                
+                # Copy reports to timestamped directory
+                cp -r ../Reports/* ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/
+                
+                # Create index.html in the timestamped directory
+                cp ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/ExtentReport.html ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/index.html
+                
+                # Clear latest directory and copy new files
+                rm -rf ./latest/* || true
+                cp -r ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/* ./latest/
+                
+                # Commit and push changes
+                git add .
+                git commit -m "Add test report for build ${BUILD_NUMBER}" || echo "No changes to commit"
+                git push origin main
+            '''
+            script {
+                def timestamp = sh(script: 'date +"%Y-%m-%d_%H-%M"', returnStdout: true).trim()
+                env.REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/reports/${BUILD_NUMBER}_${timestamp}/"
+                env.LATEST_REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/latest/"
             }
         }
     }
+}
     post {
         always {
             publishHTML([
