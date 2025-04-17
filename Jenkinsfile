@@ -39,8 +39,8 @@ pipeline {
                 <h2>Jenkins Build Report</h2>
                 <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
                 <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
-                <p><b>Extent Report:</b> <a href="${BUILD_URL}HTML_Report/Endlink%20Webapp%20Extent%20Report/">View Report</a></p>
-                <br>
+                <p><b>Extent Report:</b> <a href="http://localhost:8080/job/Endlink%20Web_Automation%20Pipeline/Endlink_20Webapp_20Extent_20Report/">View Report</a></p>
+                <be>
                 <p>Regards, <br> Geekyants QA Team</p>
     """,
     mimeType: 'text/html',
