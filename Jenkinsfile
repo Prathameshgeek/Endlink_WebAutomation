@@ -17,7 +17,7 @@ pipeline {
             steps {
                 sh 'mvn clean install' // Execute Maven from the workspace root
                 sh 'pwd'
-                sh 'ls -al target
+                sh 'ls -al target'
             }
         }
     }
