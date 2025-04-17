@@ -39,7 +39,7 @@ pipeline {
                 <h2>Jenkins Build Report</h2>
                 <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
                 <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
-                <p><b>Extent Report:</b> <a href="${JENKINS_URL}job/Endlink%20Web_Automation%20Pipeline/htmlreports/Extent_Report/">View Report</a></p>
+                <p><b>Extent Report:</b> <a href="${JENKINS_URL}job/Endlink%20Web_Automation%20Pipeline/Extent_20Report/">View Report</a></p>
                 <br>
                 <p>Regards, <br> Geekyants QA Team</p>
     """,
