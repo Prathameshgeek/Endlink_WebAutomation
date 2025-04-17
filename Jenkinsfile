@@ -36,17 +36,17 @@ pipeline {
             ])
             emailext(
                 to: 'prathamesh@geekyants.com',
-                subject: "Jenkins Build Report - Endlink Webapp",
-                body: """
-                <h2>Jenkins Build Report</h2>
-                <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
-                <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
-                <p><b>Extent Report:</b> <a href="${JENKINS_URL}job/${JOB_NAME}/${BUILD_NUMBER}/HTML_20Report/Endlink_20Webapp_20Extent_20Report/">View Report</a></p>
-                <br>
-                <p>Regards, <br> Jenkins Pipeline</p>
-            """,
-            mimeType: 'text/html',
-            attachLog: true
+    subject: "Jenkins Build Report - Endlink Webapp",
+    body: """
+        <h2>Jenkins Build Report</h2>
+        <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
+        <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
+        <p><b>Extent Report:</b> <a href="${JENKINS_URL}job/${JOB_NAME}/${BUILD_NUMBER}/HTML_20Report/">View Report</a></p>
+        <br>
+        <p>Regards, <br> Jenkins Pipeline</p>
+    """,
+    mimeType: 'text/html',
+    attachLog: true
             )
         }
     }
