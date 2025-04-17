@@ -17,8 +17,7 @@ pipeline {
             steps {
                 sh 'mvn clean install' // Execute Maven from the workspace root
                 sh 'pwd'
-                sh 'ls -al'
-                sh 'ls -al Endlink_WebAutomation'
+                sh 'ls -al target
             }
         }
     }
