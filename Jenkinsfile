@@ -76,14 +76,13 @@ pipeline {
                 reportName: 'Extent Report'
             ])
             emailext(
-                to: 'prathamesh@geekyants.com',
+                to: 'prathamesh@geekyants.com, prashantg@geekyants.com , jenniferk@geekyants.com ' , 
                 subject: "Jenkins Build Report - Endlink Webapp",
                 body: """
                 <h2>Jenkins Build Report</h2>
                 <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
                 <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
                 <p><b>Extent Report:</b> <a href="${env.LATEST_REPORT_URL}">View Latest Report</a></p>
-                <p><b>This Build's Report:</b> <a href="${env.REPORT_URL}">View This Build's Report</a></p>
                 <br>
                 <p>Regards, <br> Geekyants QA Team</p>
                 """,
