@@ -76,7 +76,7 @@ pipeline {
                 reportName: 'Extent Report'
             ])
             emailext(
-                to: 'prathamesh@geekyants.com, prashantg@geekyants.com , varshar@geekyants.com, jenniferk@geekyants.com ' , 
+                to: 'prathamesh@geekyants.com, robertcarlkane@gmail.com ' , 
                 subject: "Jenkins Build Report - Endlink Webapp",
                 body: """
                 <p>Hi Team,</p>
