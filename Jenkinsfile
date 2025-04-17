@@ -26,7 +26,7 @@ pipeline {
                 sh 'mvn clean install' 
             }
         }
-        stage('Publish Report to GitHub Pages') {
+    stage('Publish Report to GitHub Pages') {
     steps {
         withCredentials([string(credentialsId: 'github-token-credential-id', variable: 'GITHUB_TOKEN_VAR')]) {
             sh '''
@@ -48,22 +48,33 @@ pipeline {
                 
                 # Fix screenshot references in the HTML report
                 if [ -f ${BUILD_DIR}/ExtentReport.html ]; then
-                    # Create a backup of the original file
-                    cp ${BUILD_DIR}/ExtentReport.html ${BUILD_DIR}/ExtentReport.html.bak
+                    # Make a copy of the original file
+                    cp ${BUILD_DIR}/ExtentReport.html ${BUILD_DIR}/index.html
                     
-                    # Replace relative paths in the HTML file if screenshots directory exists
+                    # Fix screenshot paths in index.html if screenshots exist
                     if [ -d ${BUILD_DIR}/screenshots ]; then
-                        # Create a copy as index.html
-                        cp ${BUILD_DIR}/ExtentReport.html ${BUILD_DIR}/index.html
-                    else
-                        # Just create index.html
-                        cp ${BUILD_DIR}/ExtentReport.html ${BUILD_DIR}/index.html
+                        # Replace relative paths in the HTML file
+                        sed -i 's|="../screenshots/|="./screenshots/|g' ${BUILD_DIR}/index.html
+                        sed -i 's|="../../screenshots/|="./screenshots/|g' ${BUILD_DIR}/index.html
+                        sed -i 's|="screenshots/|="./screenshots/|g' ${BUILD_DIR}/index.html
                     fi
                 fi
                 
                 # Clear latest directory and copy new files
                 rm -rf ./latest/* || true
                 cp -r ${BUILD_DIR}/* ./latest/
+                
+                # Fix screenshot paths in latest/index.html
+                if [ -f ./latest/index.html ] && [ -d ./latest/screenshots ]; then
+                    sed -i 's|="../screenshots/|="./screenshots/|g' ./latest/index.html
+                    sed -i 's|="../../screenshots/|="./screenshots/|g' ./latest/index.html
+                    sed -i 's|="screenshots/|="./screenshots/|g' ./latest/index.html
+                fi
+                
+                # Keep only the latest 5 reports
+                cd ./reports
+                ls -t | tail -n +6 | xargs rm -rf || true
+                cd ..
                 
                 # Commit and push changes
                 git add .
@@ -77,7 +88,7 @@ pipeline {
             }
         }
     }
-}
+}    
     }
     post {
         always {
