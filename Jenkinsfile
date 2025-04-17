@@ -30,7 +30,7 @@ pipeline {
                 allowMissing: false,
                 alwaysLinkToLastBuild: true,
                 keepAll: false,
-                reportDir: 'Endlink_WebAutomation/Reports', // Adjust path if needed
+                reportDir: 'Reports', // Adjust path if needed
                 reportFiles: 'ExtentReport.html',
                 reportName: 'Endlink Webapp Extent Report'
             ])
@@ -39,15 +39,15 @@ pipeline {
                 subject: "Jenkins Build Report - Endlink Webapp",
                 body: """
                     <h2>Jenkins Build Report</h2>
-                    <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
-                    <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
-                    <p><b>Extent Report:</b> <a href="${BUILD_URL}artifact/Endlink_WebAutomation/Reports/ExtentReport.html">View Report</a></p>
-                    <br>
-                    <p>Regards, <br> Jenkins Pipeline</p>
+                <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
+                <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
+                <p><b>Extent Report:</b> <a href="${BUILD_URL}HTML_Report/">View Report</a></p>
+                <br>
+                <p>Regards, <br> Jenkins Pipeline</p>
                 """,
                 mimeType: 'text/html',
                 attachLog: true,
-                attachmentsPattern: 'Endlink_WebAutomation/Reports/ExtentReport.html' // Adjust path if needed
+                attachmentsPattern: 'Reports/ExtentReport.html' // Adjust path if needed
             )
         }
     }
