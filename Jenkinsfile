@@ -15,13 +15,7 @@ pipeline {
         }
         stage('Build and Test') {
             steps {
-                script {
-                      sh 'pwd'
-                       sh 'ls -al'  // Check the contents of the directory
-                    dir('Endlink_WebAutomation') {
-                        sh 'mvn clean install'
-                    }
-                }
+                sh 'mvn clean install' // Execute Maven from the workspace root
             }
         }
     }
@@ -31,25 +25,24 @@ pipeline {
                 allowMissing: false,
                 alwaysLinkToLastBuild: true,
                 keepAll: false,
-                reportDir: 'Endlink_WebAutomation/Reports',
+                reportDir: 'Endlink_WebAutomation/Reports', // Adjust path if needed
                 reportFiles: 'extent-report.html',
                 reportName: 'Endlink Webapp Extent Report'
             ])
-
             emailext(
                 to: 'prathamesh@geekyants.com',
                 subject: "Jenkins Build Report - Endlink Webapp",
                 body: """
-                <h2>Jenkins Build Report</h2>
-                <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
-                <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
-                <p><b>Extent Report:</b> <a href="${BUILD_URL}artifact/Endlink_WebAutomation/Reports/extent-report.html">View Report</a></p>
-                <br>
-                <p>Regards, <br> Jenkins Pipeline</p>
+                    <h2>Jenkins Build Report</h2>
+                    <p><b>Job:</b> Endlink Web_Automation Pipeline</p>
+                    <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
+                    <p><b>Extent Report:</b> <a href="${BUILD_URL}artifact/Endlink_WebAutomation/Reports/extent-report.html">View Report</a></p>
+                    <br>
+                    <p>Regards, <br> Jenkins Pipeline</p>
                 """,
                 mimeType: 'text/html',
                 attachLog: true,
-                attachmentsPattern: 'Endlink_WebAutomation/Reports/extent-report.html'
+                attachmentsPattern: 'Endlink_WebAutomation/Reports/extent-report.html' // Adjust path if needed
             )
         }
     }
