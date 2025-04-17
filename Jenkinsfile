@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'gitlab-repo-access', url: 'https://github.com/Prathameshgeek/Endlink_WebAutomation.git'
+                git branch: 'main', credentialsId: 'github-repo-access', url: 'https://github.com/Prathameshgeek/Endlink_WebAutomation.git'
             }
         }
         stage('Build and Test') {
