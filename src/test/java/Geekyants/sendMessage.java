@@ -18,11 +18,11 @@ public class sendMessage extends baseClass {
         mp.chooseCoworker();
 
         String message = "Hello! This is a test automation message....";
-//        String lastMessage = mp.sendMessageAndVerify(message);
-//
-//        Assert.assertEquals(lastMessage, message);
-//
-//        Assert.assertTrue(mp.verifyStatus());
+        String lastMessage = mp.sendMessageAndVerify(message);
+
+        Assert.assertEquals(lastMessage, message);
+
+        Assert.assertTrue(mp.verifyStatus());
     }
 
     @Test(priority = 2 , enabled = false)
