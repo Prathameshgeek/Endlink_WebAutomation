@@ -8,12 +8,15 @@ pipeline {
         maven 'Maven-3.8.6'
     }
     triggers {
-        cron('H 9 * * *')  // Fixed cron expression syntax
+        cron('H 9 * * *')
     }
     environment {
         GITHUB_TOKEN = credentials('github-token-credential-id')
         REPORT_REPO = 'https://github.com/Prathameshgeek/endlink-test-reports.git'
         BUILD_TIMESTAMP = "${BUILD_NUMBER}_${new Date().format('yyyy-MM-dd_HH-mm')}"
+        // Pre-define URLs that will work regardless of build status
+        REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/reports/${BUILD_NUMBER}_${new Date().format('yyyy-MM-dd_HH-mm')}/"
+        LATEST_REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/latest/"
     }
     stages {
         stage('Checkout') {
@@ -23,10 +26,22 @@ pipeline {
         }
         stage('Build and Test') {
             steps {
-                sh 'mvn clean install' 
+                script {
+                    try {
+                        sh 'mvn clean install'
+                    } catch (Exception e) {
+                        currentBuild.result = 'FAILURE'
+                        // Let the pipeline continue to publish reports
+                        echo "Tests failed, but continuing to publish reports"
+                    }
+                }
             }
         }
         stage('Publish Report to GitHub Pages') {
+            // Execute this stage even if tests fail
+            when {
+                expression { true }
+            }
             steps {
                 withCredentials([string(credentialsId: 'github-token-credential-id', variable: 'GITHUB_TOKEN_VAR')]) {
                     sh '''
@@ -41,26 +56,28 @@ pipeline {
                         mkdir -p ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")
                         mkdir -p ./latest
                         
-                        # Copy reports to timestamped directory
-                        cp -r ../Reports/* ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/
+                        # Copy reports to timestamped directory if they exist
+                        if [ -d "../Reports" ]; then
+                            cp -r ../Reports/* ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/ || echo "No reports to copy"
+                        else
+                            echo "No Reports directory found - creating placeholder"
+                            mkdir -p ../Reports
+                            echo "<html><body><h1>Test execution failed</h1><p>No report was generated</p></body></html>" > ../Reports/ExtentReport.html
+                            cp -r ../Reports/* ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/ || echo "Error copying reports"
+                        fi
                         
                         # Create index.html in the timestamped directory
-                        cp ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/ExtentReport.html ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/index.html
+                        cp ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/ExtentReport.html ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/index.html || echo "No ExtentReport.html found"
                         
                         # Clear latest directory and copy new files
                         rm -rf ./latest/* || true
-                        cp -r ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/* ./latest/
+                        cp -r ./reports/${BUILD_NUMBER}_$(date +"%Y-%m-%d_%H-%M")/* ./latest/ || echo "No files to copy to latest"
                         
                         # Commit and push changes
                         git add .
                         git commit -m "Add test report for build ${BUILD_NUMBER}" || echo "No changes to commit"
                         git push origin main
                     '''
-                    script {
-                        def timestamp = sh(script: 'date +"%Y-%m-%d_%H-%M"', returnStdout: true).trim()
-                        env.REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/reports/${BUILD_NUMBER}_${timestamp}/"
-                        env.LATEST_REPORT_URL = "https://prathameshgeek.github.io/endlink-test-reports/latest/"
-                    }
                 }
             }
         }
@@ -68,7 +85,7 @@ pipeline {
     post {
         always {
             publishHTML([
-                allowMissing: false, 
+                allowMissing: true,  // Changed to true to prevent failure if reports don't exist
                 alwaysLinkToLastBuild: true, 
                 keepAll: false, 
                 reportDir: 'Reports', 
