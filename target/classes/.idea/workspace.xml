@@ -6,30 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5a31ff2c-5920-4757-9de1-0885c580e4ca" name="Changes" comment="verifying new commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/utils/listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geekyants/utils/listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/core/baseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/core/driverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/loginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/messageForwardObjects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/messagePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/searchObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/pageObjects/shareMediaAndFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/configReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/retryAnalyzer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Geekyants/utils/utilityMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-04-17T11-47-05_155-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-04-17T11-47-05_155-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/MediaAndFileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/messageForwardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/searchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Geekyants/sendMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/core/baseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geekyants/core/baseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/messagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/messagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Geekyants/sendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Geekyants/sendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/sendMessageToCoworker_2025.04.17.13.44.20.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

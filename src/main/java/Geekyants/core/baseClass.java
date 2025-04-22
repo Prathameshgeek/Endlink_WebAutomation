@@ -27,7 +27,7 @@ public class baseClass {
 
     @Parameters({"browser"}) // We are passing browser name from testng.xml as parameter
     @BeforeSuite
-    public void beforeTestMethod(@Optional String browser) {
+    public void beforeSuiteMethod(@Optional String browser) {
 
         utilityMethods.cleanupScreenshots();
         
@@ -43,15 +43,19 @@ public class baseClass {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        String baseUrl = config.getProperty("baseUrl");
-        driver.get(baseUrl);
+
+
 
     }
 
     @BeforeMethod
     public void loginTest() throws InterruptedException {
 
+        String baseUrl = config.getProperty("baseUrl");
+        driver.get(baseUrl);
+
         driver.manage().deleteAllCookies();
+
         loginPage lgn = new loginPage(driver);
 
         String expectedUrl = config.getProperty("dashboardURL");
@@ -74,17 +78,12 @@ public class baseClass {
         String baseUrl = config.getProperty("baseUrl");
         Assert.assertEquals(verifyUrl, baseUrl); //Validate the page url upon logout comes to base URL
 
-      //  driverManager.quitDriver();
 
     }
 
     @AfterTest
-    public void afterMethodMethod() {
-     driverManager.quitDriver();
-
+    public void afterTestMethod() {
+         driverManager.quitDriver();
     }
-
-
-
 
 }

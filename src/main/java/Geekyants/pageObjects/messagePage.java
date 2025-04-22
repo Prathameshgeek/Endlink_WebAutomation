@@ -76,9 +76,6 @@ public class messagePage {
         cowrkerIcon.click();
         Thread.sleep(4000);
         cowrkerIcon.click();
-        Thread.sleep(4000);
-        cowrkerIcon.click();
-
 
         for (WebElement user : usersList) {
 
@@ -93,11 +90,11 @@ public class messagePage {
     public String sendMessageAndVerify(String message) throws InterruptedException {
 
         textField.sendKeys(message);
+        Thread.sleep(5000);
         wait.until(ExpectedConditions.elementToBeClickable(sendButton));
-        Thread.sleep(4000);
-
         sendButton.click();
-        Thread.sleep(10000);
+
+        Thread.sleep(5000);
         String lastMessage = lastMes.getText();
         return lastMessage ;
     }

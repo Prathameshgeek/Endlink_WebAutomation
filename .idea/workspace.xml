@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a31ff2c-5920-4757-9de1-0885c580e4ca" name="Changes" comment="verifying new commit" />
+    <list default="true" id="5a31ff2c-5920-4757-9de1-0885c580e4ca" name="Changes" comment="verifying new commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/core/baseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geekyants/core/baseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/messagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geekyants/pageObjects/messagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Geekyants/utils/listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geekyants/utils/listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Geekyants/sendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Geekyants/sendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/sendMessageToCoworker_2025.04.17.13.44.20.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
